@@ -1,0 +1,20 @@
+# Usar imagem Node.js
+FROM node:18-alpine
+
+# Criar diretório da app dentro do container
+WORKDIR /app
+
+# Copiar apenas o diretório chatbot
+COPY chatbot ./chatbot
+
+# Entrar no diretório chatbot
+WORKDIR /app/chatbot
+
+# Instalar dependências (Yarn)
+RUN yarn install --production
+
+# Expor a porta
+EXPOSE 3000
+
+# Comando para iniciar a aplicação
+CMD ["yarn", "start"]
