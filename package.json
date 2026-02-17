@@ -1,15 +1,17 @@
 {
   "name": "chatbot-na",
   "version": "1.0.0",
-  "description": "Este projeto é um chatbot inteligente desenvolvido em **Node.js** para atendimento automatizado no **WhatsApp** da loja **New Andrew's Suplementos**. Ele oferece suporte aos clientes em tempo real, fornece informações sobre produtos, horários de atendimento e muito mais.",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "git+https://github.com/sanfergio/Chatbot-NA.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanfergio/Chatbot-NA.git"
+  },
   "keywords": [],
-  "author": "Giovani Sanfer <giovani.marlonfer@gmail.com>",
+  "author": "",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
@@ -17,8 +19,8 @@
   },
   "homepage": "https://github.com/sanfergio/Chatbot-NA#readme",
   "dependencies": {
-    "express": "^5.1.0",
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": "^1.28.0"
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "express": "^5.2.1",
+    "qrcode": "^1.5.4"
   }
 }
