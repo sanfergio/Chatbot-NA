@@ -12,7 +12,7 @@ async function responderOpcao(sock, entrada, chat) {
   const respostas = {
     "1": `🔹 *Como funciona?*\n\nA New Andrew's é uma loja online especializada em suplementos de alta qualidade. Você pode navegar pelo nosso catálogo no site, escolher os produtos desejados e finalizar a compra com entrega rápida para todo o Brasil.\n\n➡️ Acesse: www.newandrews.com.br\n\n*Digite "menu" para voltar ao início.*`,
 
-    "2": `🎉 *Promoções*\n\nNo momento estamos com *frete grátis* em compras em todas compras! Também poussimos a promoção: Compre 3 quaisquer produtos, e leve o 4º de *GRAÇA!* Além disso, diversos produtos com descontos especiais. Fique de olho no site para não perder nenhuma oferta.\n\n➡️ Confira: www.newandrews.com.br/promocoes\n\n*Digite "menu" para voltar ao início.*`,
+    "2": `🎉 *Promoções*\n\nNo momento estamos com *frete grátis* todas as compras! Também poussimos a promoção: Compre 3 quaisquer produtos, e leve o 4º de *GRAÇA!* Além disso, diversos produtos com descontos especiais. Fique de olho no site para não perder nenhuma oferta.\n\n➡️ Confira: www.newandrews.com.br/promocoes\n\n*Digite "menu" para voltar ao início.*`,
 
     "3": `💪 *Benefícios*\n\n✅ Suplementos aprovados pela Anvisa\n✅ Matéria-prima importada\n✅ Entrega rápida e segura\n✅ Atendimento personalizado\n✅ Produtos com alta pureza e eficácia\n\nSaiba mais em www.newandrews.com.br\n\n*Digite "menu" para voltar ao início.*`,
 
@@ -22,7 +22,7 @@ async function responderOpcao(sock, entrada, chat) {
 
     "6": `📘 *Catálogo de Suplementos*\n\nConfira todos os nossos produtos no site:\n👉 https://www.canva.com/design/DAGvooWyDFw/de1huLlR35ZpAAo_OiJgZQ/view?utm_content=DAGvooWyDFw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hde51656e4f\n\nTemos creatina, aminoácidos, vitaminas e muito mais!\n\n*Digite "menu" para voltar ao início.*`,
 
-    "7": `👩‍💼 *Falar com atendente*\n\nNo momento não há nenhum atendente online disponível. Por favor, tente mais tarde ou envie sua dúvida por e-mail: produtosnewandrews@newandrews.com.br ou pelo número de telefone comercial +55 (21) 97908-9061\n\nSe preferir, deixe sua mensagem aqui mesmo que assim que possível retornaremos.\n\n*Digite "menu" para voltar ao início.*`,
+    "7": `👩‍💼 *Falar com atendente*\n\nNo momento não há nenhum atendente online disponível. Por favor, tente mais tarde ou envie sua dúvida por e-mail: produtosnewandrews@newandrews.com.br\n\nOu pelo nosso número de telefone comercial:\n\nhttps://api.whatsapp.com/send/?phone=5521979089061&text=Ol%C3%A1%21+Tenho+interesse+em+me+tornar+revendedor+ou+parceiro+da+New+Andrew%27s+Suplementos&app_absent=0\n\n*Digite "menu" para voltar ao início.*`,
 
     "8": `⚠️ *Problemas, reclamações ou insatisfações*\n\nLamentamos por qualquer inconveniente. Para registrar sua reclamação de forma oficial e acompanhar a resolução, acesse nossa página no Reclame Aqui:\n🔗 https://www.reclameaqui.com.br/empresa/produtos-new-andrews/\n\nTambém estamos à disposição pelo e-mail: suporte@newandrews.com.br\n\n*Digite "menu" para voltar ao início.*`,
 
