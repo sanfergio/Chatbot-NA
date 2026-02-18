@@ -83,7 +83,7 @@ async function iniciarBot() {
       usuariosAtendidos.add(sender);
 
       await sock.sendMessage(sender, {
-        text: `🤖 *Olá! Seja bem-vindo(a) à New Andrew's Suplementos!*\n\nAntes de começarmos, um aviso importante: nosso sistema de atendimento funciona apenas por *mensagens de texto e imagens*. Não respondemos a áudios ou ligações.\n\nEscolha uma opção abaixo:`
+        text: `🤖 *Olá! Seja bem-vindo(a) à New Andrew's Suplementos!*\n\nAntes de começarmos, um aviso importante: nosso sistema de atendimento funciona apenas por *mensagens de texto*. Não respondemos a áudios, imagens, vídeos ou ligações.\n\nEscolha uma opção abaixo:`
       });
 
       return enviarMenu(sock, sender);

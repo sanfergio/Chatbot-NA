@@ -12,17 +12,17 @@ async function responderOpcao(sock, entrada, chat) {
   const respostas = {
     "1": `🔹 *Como funciona?*\n\nA New Andrew's é uma loja online especializada em suplementos de alta qualidade. Você pode navegar pelo nosso catálogo no site, escolher os produtos desejados e finalizar a compra com entrega rápida para todo o Brasil.\n\n➡️ Acesse: www.newandrews.com.br\n\n*Digite "menu" para voltar ao início.*`,
 
-    "2": `🎉 *Promoções*\n\nNo momento estamos com frete grátis em compras acima de R$ 150,00! Além disso, diversos produtos com descontos especiais. Fique de olho no site para não perder nenhuma oferta.\n\n➡️ Confira: www.newandrews.com.br/promocoes\n\n*Digite "menu" para voltar ao início.*`,
+    "2": `🎉 *Promoções*\n\nNo momento estamos com *frete grátis* em compras em todas compras! Também poussimos a promoção: Compre 3 quaisquer produtos, e leve o 4º de *GRAÇA!* Além disso, diversos produtos com descontos especiais. Fique de olho no site para não perder nenhuma oferta.\n\n➡️ Confira: www.newandrews.com.br/promocoes\n\n*Digite "menu" para voltar ao início.*`,
 
     "3": `💪 *Benefícios*\n\n✅ Suplementos aprovados pela Anvisa\n✅ Matéria-prima importada\n✅ Entrega rápida e segura\n✅ Atendimento personalizado\n✅ Produtos com alta pureza e eficácia\n\nSaiba mais em www.newandrews.com.br\n\n*Digite "menu" para voltar ao início.*`,
 
     "4": `🛒 *Como comprar?*\n\nÉ muito simples:\n1. Acesse www.newandrews.com.br\n2. Navegue pelo catálogo e escolha seus produtos\n3. Adicione ao carrinho\n4. Escolha a forma de pagamento (cartão, boleto ou pix)\n5. Finalize o pedido e aguarde a entrega\n\nQualquer dúvida, estamos aqui!\n\n*Digite "menu" para voltar ao início.*`,
 
-    "5": `🤝 *Seja um Revendedor / Parceiro / Representante*\n\nQuer fazer parte do time New Andrew's? Envie um e-mail para parcerias@newandrews.com.br ou entre em contato pelo WhatsApp comercial: (21) 98052-0003.\n\nOferecemos condições especiais e suporte completo.\n\n*Digite "menu" para voltar ao início.*`,
+    "5": `🤝 *Seja um Revendedor / Parceiro / Representante*\n\nQuer fazer parte do time New Andrew's? Entre em contato pelo WhatsApp comercial: (21) 98052-0003 ou clique no link abaixo:\n\nhttps://api.whatsapp.com/send/?phone=5521979089061&text=Ol%C3%A1%21+Tenho+interesse+em+me+tornar+revendedor+ou+parceiro+da+New+Andrew%27s+Suplementos&app_absent=0\n\nOferecemos condições especiais e suporte completo.\n\n*Digite "menu" para voltar ao início.*`,
 
-    "6": `📘 *Catálogo de Suplementos*\n\nConfira todos os nossos produtos no site:\n👉 www.newandrews.com.br/catalogo\n\nTemos whey protein, creatina, aminoácidos, vitaminas e muito mais!\n\n*Digite "menu" para voltar ao início.*`,
+    "6": `📘 *Catálogo de Suplementos*\n\nConfira todos os nossos produtos no site:\n👉 https://www.canva.com/design/DAGvooWyDFw/de1huLlR35ZpAAo_OiJgZQ/view?utm_content=DAGvooWyDFw&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hde51656e4f\n\nTemos creatina, aminoácidos, vitaminas e muito mais!\n\n*Digite "menu" para voltar ao início.*`,
 
-    "7": `👩‍💼 *Falar com atendente*\n\nNo momento não há nenhum atendente online disponível. Por favor, tente mais tarde ou envie sua dúvida por e-mail: contato@newandrews.com.br\n\nSe preferir, deixe sua mensagem aqui mesmo que assim que possível retornaremos.\n\n*Digite "menu" para voltar ao início.*`,
+    "7": `👩‍💼 *Falar com atendente*\n\nNo momento não há nenhum atendente online disponível. Por favor, tente mais tarde ou envie sua dúvida por e-mail: produtosnewandrews@newandrews.com.br ou pelo número de telefone comercial +55 (21) 97908-9061\n\nSe preferir, deixe sua mensagem aqui mesmo que assim que possível retornaremos.\n\n*Digite "menu" para voltar ao início.*`,
 
     "8": `⚠️ *Problemas, reclamações ou insatisfações*\n\nLamentamos por qualquer inconveniente. Para registrar sua reclamação de forma oficial e acompanhar a resolução, acesse nossa página no Reclame Aqui:\n🔗 https://www.reclameaqui.com.br/empresa/produtos-new-andrews/\n\nTambém estamos à disposição pelo e-mail: suporte@newandrews.com.br\n\n*Digite "menu" para voltar ao início.*`,
 
