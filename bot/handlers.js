@@ -12,7 +12,7 @@ async function responderOpcao(sock, entrada, chat) {
   const respostas = {
     "1": `🔹 *Como funciona?*\n\nA New Andrew's é uma loja online especializada em suplementos de alta qualidade. Você pode navegar pelo nosso catálogo no site, escolher os produtos desejados e finalizar a compra com entrega rápida para todo o Brasil.\n\n➡️ Acesse: www.newandrews.com.br\n\n*Digite "menu" para voltar ao início.*`,
 
-    "2": `🎉 *Promoções*\n\nNo momento estamos com *frete grátis* todas as compras! Também poussimos a promoção: Compre 3 quaisquer produtos, e leve o 4º de *GRAÇA!* Além disso, diversos produtos com descontos especiais. Fique de olho no site para não perder nenhuma oferta.\n\n➡️ Confira: www.newandrews.com.br/promocoes\n\n*Digite "menu" para voltar ao início.*`,
+    "2": `🎉 *Promoções*\n\nNo momento estamos com *frete grátis* em todas as compras! Também poussimos a promoção: Pague 3 e leve o 4º produto de *GRAÇA!* Além disso, diversos produtos com descontos especiais. Fique de olho no site para não perder nenhuma oferta.\n\n➡️ Confira: www.newandrews.com.br\n\n*Digite "menu" para voltar ao início.*`,
 
     "3": `💪 *Benefícios*\n\n✅ Suplementos aprovados pela Anvisa\n✅ Matéria-prima importada\n✅ Entrega rápida e segura\n✅ Atendimento personalizado\n✅ Produtos com alta pureza e eficácia\n\nSaiba mais em www.newandrews.com.br\n\n*Digite "menu" para voltar ao início.*`,
 
