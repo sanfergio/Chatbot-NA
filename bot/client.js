@@ -17,6 +17,7 @@ const {
 let sock;
 let currentQR = null;
 
+// Número do atendente (não usado no momento, mas mantido para futuro)
 const NUMERO_ATENDENTE = "5521980520003@s.whatsapp.net";
 
 async function iniciarBot() {
@@ -68,25 +69,27 @@ async function iniciarBot() {
 
     const entrada = texto.trim().toLowerCase();
 
-    // Atendimento humano
+    // Se estiver em modo atendimento humano (não usado agora, mas mantido)
     if (atendimentoHumano.has(sender)) {
       iniciarTemporizador(sender);
+      // Aqui poderia encaminhar a mensagem para o atendente real
       return;
     }
 
     iniciarTemporizador(sender);
 
+    // Primeira interação do usuário
     if (!usuariosAtendidos.has(sender)) {
       usuariosAtendidos.add(sender);
 
       await sock.sendMessage(sender, {
-        text:
-          "🤖 *Olá! Seja bem-vindo(a) à New Andrew's Suplementos!*\n\nEscolha uma opção:"
+        text: `🤖 *Olá! Seja bem-vindo(a) à New Andrew's Suplementos!*\n\nAntes de começarmos, um aviso importante: nosso sistema de atendimento funciona apenas por *mensagens de texto e imagens*. Não respondemos a áudios ou ligações.\n\nEscolha uma opção abaixo:`
       });
 
       return enviarMenu(sock, sender);
     }
 
+    // Responde à opção escolhida
     return responderOpcao(sock, entrada, sender);
   });
 }
